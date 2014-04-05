@@ -24,6 +24,7 @@ typedef pcl::PointCloud<PointT> PointCloudT;
 typedef pcl::Normal NormalType;
 typedef pcl::SHOT352 DescriptorType;
 
+
 #define  PC_XYZ_PTR pcl::PointCloud<pcl::PointXYZ>::Ptr 
 #define  PC_XYZ pcl::PointCloud<pcl::PointXYZ> 
 #define  PASS_XYZ pcl::PassThrough<pcl::PointXYZ> 
