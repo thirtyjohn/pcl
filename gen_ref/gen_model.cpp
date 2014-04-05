@@ -208,7 +208,7 @@ void Ec(PC_XYZ_PTR cloud_in)
     ss << "cloud_cluster_" << j << ".pcd";
     cout << "ss:" << j << std::endl;  
     writer.write<pcl::PointXYZ> (ss.str (), *cloud_cluster, false); //*
-    DisplayPc(cloud_cluster);
+    //DisplayPc(cloud_cluster);
     j++;
   }   
 
